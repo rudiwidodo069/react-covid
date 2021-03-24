@@ -1,0 +1,96 @@
+.box-footer {
+  width: 100%;
+  height: 461px;
+  background: #262c7c;
+}
+
+.box-footer .footer-content {
+  padding: 98px 0 48px;
+}
+
+.box-footer .footer-content .img-logo {
+  margin-bottom: 33px;
+}
+
+.box-footer .footer-content .img-logo .title {
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.box-footer .footer-content .footer-logo-text {
+  font-size: 16px;
+}
+
+.box-footer .footer-content .contact-us .title {
+  font-size: 18px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.box-footer .footer-content .contact-us {
+  font-size: 16px;
+  text-align: left;
+}
+
+.box-footer .footer-content .social-media .title {
+  font-size: 18px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.box-footer .footer-content .social-media ul {
+  display: block;
+  padding: 0;
+}
+
+.box-footer .footer-content .social-media ul li {
+  list-style: none;
+  margin: 8px 0;
+  text-align: left;
+}
+
+.box-footer .footer-content .social-media ul li a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.box-footer hr {
+  margin-top: 85px;
+}
+
+.box-footer .footer {
+  font-size: 16px;
+  height: 100%;
+  margin-top: 30px;
+}
+
+/* responsive */
+@media (max-width: 575.98px) {
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+  .box-footer .footer-content .col-4 {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .box-footer {
+    height: 100%;
+  }
+  .box-footer .footer-content .contact-us,
+  .box-footer .footer-content .contact-us .title {
+    text-align: left;
+  }
+  .box-footer .footer-content .social-media .title,
+  .box-footer .footer-content .social-media ul li {
+    text-align: left;
+  }
+}
+
+@media (max-width: 1399.98px) {
+}

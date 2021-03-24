@@ -1,0 +1,146 @@
+[
+    {
+        "id" : 1,
+        "title" : [
+            {
+                "faq" : {
+                    "id" : 1,
+                    "title" : "apa itu corona virus ?",
+                    "msg" : "Penyakit yang disebabkan oleh virus severe acute respiratory syndrome coronavirus"
+                } 
+            },
+            {
+                "faq" : {
+                    "id" : 2,
+                    "title" : "kapan penyebaran virus itu terjadi ?",
+                    "msg" : "Menurut data pemerintah yang dilihat oleh SCMP, pria berusia 55 tahun dari provinsi Hubei kemungkinan menjadi orang pertama yang terinfeksi COVID-19 pada tanggal 17 November 2019"
+                } 
+            },
+            {
+                "faq" : {
+                    "id" : 3,
+                    "title" : "Seberapa bahaya penyebaran virus ini ?",
+                    "msg" : "Sangat berbahaya, kemungkinan besar hanya dengan berhadap - hadapan dengan orang yang sudah positif corona dengan tanpa adanya pelindung seperti masker atau yang lainnya dapat menyebabkan terpapar dari virus ini"
+                } 
+            },
+            {
+                "faq" : {
+                    "id" : 4,
+                    "title" : "Bagaimana dampak yang di timbulkan dari virus ini ?",
+                    "msg" : "banyak dampak yang ditimbulkan dari penyebaran virus ini seperti : banyak para pegai atau tenga kerja yang terkena PHK."
+                } 
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "title" : [
+            {
+                "faq" : {
+                    "id" : 1,
+                    "title" : "Penyebaran virus corona melalui droplet",
+                    "msg" : "penyebaran virus dapat terjadi melelui droplet saat seseorang batuk,bersin, bernyani, berbicara, hingga bernafas."
+                } 
+            },
+            {
+                "faq" : {
+                    "id" : 2,
+                    "title" : "Penyebaran virus corona melalui udara",
+                    "msg" : "virus corona dapat menyebar melalui pertikel - partikel dkecil yang melayang di udara."
+                } 
+            },
+            {
+                "faq" : {
+                    "id" : 3,
+                    "title" : "Penyebaran virus corona melalui permukaan yang terkontaminasi",
+                    "msg" : "cara penularan virus corona ini terjadi saat seseorang menyentuh permukaan yang mungkin telah terkonataminasi virus dari sesorang yang batuk atau bersin."
+                } 
+            },
+            {
+                "faq" : {
+                    "id" : 4,
+                    "title" : "Penyebaran virus corona mlalui fecaloral atau limbah manusia",
+                    "msg" : "Sebuah studi menunjukkan bahwa partikel virus corona ditemukan juga pada fecaloral orang yang terinfeksi."
+                } 
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "title" : [
+            {
+                "faq" : {
+                    "id" : 1,
+                    "title" : "Cuci tangan",
+                    "msg" : "Sering cuci tangan pakai sabun dan air mengalir (minimal selama 20 detik). gyunakn juga hand sanitizer."
+                } 
+            },
+            {
+                "faq" : {
+                    "id" : 2,
+                    "title" : "Jaga jarak dengan orang lain",
+                    "msg" : "Hindari menyentuh muka, hidung, dan mata sebelum mencuci tangan, jaga jarak minimal 1 meter dengan orang lain."
+                } 
+            },
+            {
+                "faq" : {
+                    "id" : 3,
+                    "title" : "Priksa kedokter",
+                    "msg" : "Jika anda mengalami gejala seperti demam, rasa lelah, dan batuk kering. Segera priksakan diri anda ke dokter atau ke rumah sakit terdekat."
+                } 
+            },
+            {
+                "faq" : {
+                    "id" : 4,
+                    "title" : "Gunakan masker",
+                    "msg" : "ketika anda sedang berpergian alangkah baiknya jika anda mengunakan masker, karena memakai masker dapat mencegah anda terpapar virus corona yang menyebar melalui pertikel - partikel kecil melalui udara."
+                } 
+            }
+        ]
+    },
+    {
+        "id" : 4,
+        "title" : [
+            {
+                "faq" : {
+                    "id" : 1,
+                    "title" : "Gejala - gejala secara umum",
+                    "msg" : "1. Demam (suhu tubuh di atas 38 derajat celsius) 2. Batuk kering 3. Sesak nafas."
+                } 
+            },
+            {
+                "faq" : {
+                    "id" : 2,
+                    "title" : "Gejala - gejala lain",
+                    "msg" : "1. Diare. 2. Skit kepala. 3. Konjungtivitis. 4. Hilangnya kemampuan mengecap rasa dan bau."
+                } 
+            },
+            {
+                "faq" : {
+                    "id" : 3,
+                    "title" : "Kapan harus ke dokter ?",
+                    "msg" : "segera lakukan isolasi mandiri jika anda mengalami gejala - gejala yang dari virus corona, terutama jika dalam 2 minggu terakhir anda berada di daerah yang memiliki kasus (COVID-19) atau kontak langsung dengan penderita (COVID-19). hubungi hotline COVID-19 untuk mendapatkan pengarahan lebih lanjut."
+                } 
+            }
+        ]
+    },
+    {
+        "id" : 5,
+        "title" : [
+            {
+                "faq" : {
+                    "id" : 1,
+                    "title" : "Protokol kesehatan",
+                    "msg" : "Jangan lupa selalu patuhi perotokol kesehatan dari pemerintah agar anda terhindar dari virus corona."
+                } 
+            },
+            {
+                "faq" : {
+                    "id" : 2,
+                    "title" : "Solidaritas",
+                    "msg" : "Jika anda merasa diri anda masih mampu untuk membantu, anda dapat membantu menyumbakan bahan - bahan pokok atau melakukan donasi ke pihak yang terkait dengan penangulangan virus corona."
+                } 
+            }
+        ]
+    }
+]

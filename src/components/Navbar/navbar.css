@@ -1,0 +1,44 @@
+.navbar {
+  /* height: 88px; */
+  background: #262c7c;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
+}
+
+.navbar-brand span {
+  margin-left: 14px;
+  color: #ffffff;
+}
+
+.nav-item a {
+  color: #bec1e0;
+  font-size: 14px;
+}
+
+.navbar-nav .nav-item .active {
+  color: #c796ab;
+}
+
+/* responsive */
+@media (max-width: 575.98px) {
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 1399.98px) {
+}

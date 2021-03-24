@@ -1,0 +1,53 @@
+.box-spread {
+  margin-top: 78px;
+}
+
+.box-spread .title {
+  color: #262c7c;
+  font-size: 32px;
+  margin-bottom: 72px;
+}
+
+.box-spread .spread-content {
+  height: 357px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 28px;
+}
+
+.box-spread .spread-content .spread-img {
+  width: 108px;
+  height: 109px;
+  margin: 0 auto 17px;
+}
+
+.box-spread .spread-content .spread-title {
+  color: #262c7c;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-spread .spread-content .spread-text {
+  font-size: 16px;
+  color: #6468a1;
+}
+
+/* responsive */
+@media (max-width: 575.98px) {
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 1399.98px) {
+  .box-spread .spread-content {
+    width: 100%;
+    height: 100%;
+  }
+}

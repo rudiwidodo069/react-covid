@@ -1,0 +1,63 @@
+.box-sysmtoms {
+  margin-top: 58px;
+}
+
+.box-sysmtoms .title {
+  font-size: 32px;
+  color: #262c7c;
+  margin-bottom: 72px;
+}
+
+.box-sysmtoms .sysmtoms-content {
+  height: 500px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.box-sysmtoms .sysmtoms-content .sysmtoms-img {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  margin: 0 auto 27px;
+}
+
+.box-sysmtoms .sysmtoms-content .sysmtoms-img svg {
+  width: 100%;
+  height: 100%;
+}
+
+.box-sysmtoms .sysmtoms-content .sysmtoms-title {
+  font-size: 24px;
+  color: #262c7c;
+  margin-bottom: 24px;
+}
+
+.box-sysmtoms .sysmtoms-content .sysmtoms-text {
+  font-size: 16px;
+  text-align: justify;
+  color: #6468a1;
+}
+
+/* responsive */
+@media (max-width: 575.98px) {
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 1399.98px) {
+  .box-sysmtoms .sysmtoms-content {
+    width: 100%;
+    height: 100%;
+  }
+  .box-sysmtoms .col-3 {
+    width: 100%;
+  }
+}
