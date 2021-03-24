@@ -21,6 +21,8 @@ https://corona.lmao.ninja/v2/
 3. node-sass
 4. react-map-gl
 5. react-number-format
+6. eslint
+7. eslint-plugin-react
 
 ## deploy
 

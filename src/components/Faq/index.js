@@ -75,7 +75,9 @@ export function ComponentFaqJson({ componentJson, openFaq, closeFaq, open }) {
                             {
                                 item.title.map(item => {
                                     return (
-                                        <div className="item-content">
+                                        <div
+                                            key={item.faq.id}
+                                            className="item-content">
                                             <div className="item-title">
                                                 {item.faq.title}
                                             </div>
