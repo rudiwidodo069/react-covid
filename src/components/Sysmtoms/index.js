@@ -15,7 +15,7 @@ export default function index() {
             <div className="container">
                 <div className="box-sysmtoms">
                     <div className="title fw-bold text-center">Gejala virus korona</div>
-                    <div className="row gap-2 grid-sysmtoms shadow-sm">
+                    <div className="row gap-2 grid-sysmtoms">
                         {
                             SysmtomsContent.map(item => {
                                 return (
