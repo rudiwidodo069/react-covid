@@ -20,7 +20,7 @@ export default function Index({ countriesContext }) {
     const [currectPage, setCurrentPage] = useState(1);
     const [countriesPerPage, setCountriesPerPage] = useState(8);
     const [pageNumberLimit, setPageNumberLimit] = useState(8);
-    const [maxPageNumberLimit, setMaxPageNumberLimit] = useState(10);
+    const [maxPageNumberLimit, setMaxPageNumberLimit] = useState(6);
     const [minPageNumberLimit, setMinPageNumberLimit] = useState(1);
 
     const indexOfLast = currectPage * countriesPerPage;
