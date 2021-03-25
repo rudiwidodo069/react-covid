@@ -9,9 +9,11 @@
 }
 
 .box-sysmtoms .sysmtoms-content {
-  height: 500px;
+  height: 550px;
+  width: 90%;
+  margin: 0 auto;
   background: #ffffff;
-  padding: 28px;
+  padding: 20px;
   border-radius: 10px;
 }
 
