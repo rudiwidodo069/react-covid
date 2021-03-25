@@ -8,12 +8,15 @@
   margin-bottom: 72px;
 }
 
+.box-spread .col-4 {
+  margin-top: 8px;
+}
+
 .box-spread .spread-content {
   height: 357px;
   background: #ffffff;
   border-radius: 10px;
   padding: 28px;
-  margin-top: 12px;
 }
 
 .box-spread .spread-content .spread-img {

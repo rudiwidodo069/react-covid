@@ -103,28 +103,21 @@
   position: relative;
   padding: 10px;
   overflow: auto;
+  border-radius: 8px;
 }
 
 .box-main .detail .box-detail::-webkit-scrollbar {
   width: 0;
 }
 
-.box-main .box-detail .close {
-  cursor: pointer;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background: #d60c49;
+.box-main .box-detail .close i {
   font-weight: bold;
-  color: #ffffff;
+  color: #d60c7b;
   position: absolute;
   top: 8px;
   right: 9px;
-  font-size: 20px;
-  z-index: 2;
+  font-size: 32px;
+  cursor: pointer;
 }
 
 .box-main .detail .box-detail .col-6 .box-img {
@@ -166,12 +159,15 @@
 
 /* responsive */
 @media (max-width: 575.98px) {
+  .box-main .col-8 .main-left .main-maps {
+    height: 350px;
+  }
   .box-main .detail {
     height: 100%;
   }
   .box-main .detail .box-detail {
     width: 90%;
-    height: 80%;
+    height: 86%;
   }
 }
 

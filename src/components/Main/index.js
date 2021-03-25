@@ -19,7 +19,7 @@ export default function Index({ countriesContext }) {
     const [detailLocation, setDetailLocation] = useState({});
     const [currectPage, setCurrentPage] = useState(1);
     const [countriesPerPage, setCountriesPerPage] = useState(8);
-    const [pageNumberLimit, setPageNumberLimit] = useState(8);
+    const [pageNumberLimit, setPageNumberLimit] = useState(5);
     const [maxPageNumberLimit, setMaxPageNumberLimit] = useState(5);
     const [minPageNumberLimit, setMinPageNumberLimit] = useState(1);
 
@@ -81,8 +81,13 @@ export default function Index({ countriesContext }) {
                         <div className="col-4 col-lg">
                             <div className="main-right">
                                 <div className="input-group">
-                                    <input type="text" placeholder="memfilter ke suatu lokasi
-" name="keyword" className="form-control" value={keyword} onChange={evt => sreachCountries(evt)} />
+                                    <input
+                                        type="text"
+                                        placeholder="filter ke suatu lokasi"
+                                        name="keyword"
+                                        className="form-control"
+                                        value={keyword}
+                                        onChange={evt => sreachCountries(evt)} />
                                 </div>
                                 <hr />
                                 <div className="locations">
@@ -115,14 +120,14 @@ export function MapsGl({ countries }) {
         height: "100%",
         latitude: -6.200000,
         longitude: 106.816666,
-        zoom: 1.5
+        zoom: 4,
     });
     return (
         <ReactMapGL
             {...viewport}
             onViewportChange={nextViewport => setViewport(nextViewport)}
             mapboxApiAccessToken='pk.eyJ1IjoicnVkaXdpZCIsImEiOiJja21saWhhMnoxYmhmMnFtdWdocnRmdnJsIn0.wYYpBjjOsQ0x9Kp2AJbn1w'
-            mapStyle='mapbox://styles/mapbox/dark-v10'
+        // mapStyle='mapbox://styles/mapbox/dark-v10'
         >
             {
                 countries.map((item, key) => {
@@ -205,7 +210,9 @@ export function Detail({ close, detail }) {
     return (
         <div className="detail">
             <div className="box-detail">
-                <div className="close" onClick={close}>X</div>
+                <div className="close" onClick={close}>
+                    <i className="bi bi-x-circle-fill"></i>
+                </div>
                 <div className="row gap-1">
                     <div className="col-6 col-md">
                         <div className="box-img d-flex justify-content-center align-items-center">
