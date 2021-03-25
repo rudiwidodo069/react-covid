@@ -202,7 +202,6 @@ export function Paginations({ currentPage, countriesPerPage, totalCountries, pag
 }
 
 export function Detail({ close, detail }) {
-    console.log(detail)
     return (
         <div className="detail">
             <div className="box-detail">

@@ -11,7 +11,7 @@
 .box-sysmtoms .sysmtoms-content {
   height: 500px;
   background: #ffffff;
-  padding: 20px;
+  padding: 28px;
   border-radius: 10px;
 }
 
@@ -41,6 +41,9 @@
 
 /* responsive */
 @media (max-width: 575.98px) {
+  .box-sysmtoms .sysmtoms-content .sysmtoms-text {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -50,9 +53,6 @@
 }
 
 @media (max-width: 1199.98px) {
-}
-
-@media (max-width: 1399.98px) {
   .box-sysmtoms .sysmtoms-content {
     width: 100%;
     height: 100%;
@@ -60,4 +60,7 @@
   .box-sysmtoms .col-3 {
     width: 100%;
   }
+}
+
+@media (max-width: 1399.98px) {
 }

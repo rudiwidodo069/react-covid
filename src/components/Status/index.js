@@ -17,7 +17,6 @@ import NumberFormat from 'react-number-format';
 
 export default function Index({ covidContext }) {
     const covidProps = useContext(covidContext);
-    console.log(covidProps);
     return (
         <section id="our-result">
             <div className="container">
